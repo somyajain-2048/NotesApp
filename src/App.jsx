@@ -1,11 +1,7 @@
-import Register from "./components/Login";
+import ThemeToggler from "./components/ThemeToggler";
 
 function App() {
-  return (
-    <div>
-      <Register />
-    </div>
-  );
+  return <ThemeToggler />;
 }
 
 export default App;
